@@ -3,8 +3,8 @@ import warnings
 warnings.filterwarnings('ignore')
 from multiprocessing import cpu_count
 from sklearn.base import BaseEstimator
-from regression import HungaBungaRegressor, HungaBungaRandomRegressor
-from classification import HungaBungaClassifier, HungaBungaRandomClassifier
+from .regression import HungaBungaRegressor, HungaBungaRandomRegressor
+from .classification import HungaBungaClassifier, HungaBungaRandomClassifier
 
 
 class HungaBungaZeroKnowledge(BaseEstimator):

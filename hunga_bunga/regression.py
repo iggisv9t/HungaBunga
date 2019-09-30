@@ -21,8 +21,8 @@ from sklearn.ensemble import AdaBoostRegressor, ExtraTreesRegressor, RandomFores
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet, Lars, LassoLars, OrthogonalMatchingPursuit, BayesianRidge, ARDRegression, SGDRegressor, PassiveAggressiveRegressor, RANSACRegressor, HuberRegressor
 
 
-from core import *
-from params import *
+from .core import *
+from .params import *
 
 
 linear_models_n_params = [

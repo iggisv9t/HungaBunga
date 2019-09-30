@@ -25,8 +25,8 @@ from sklearn.base import ClassifierMixin
 from sklearn.base import RegressorMixin
 from sklearn.base import is_classifier
 
-from core import *
-from params import *
+from .core import *
+from .params import *
 
 
 linear_models_n_params = [
